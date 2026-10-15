@@ -65,7 +65,7 @@ body {
 }
 
 #caracell span {
-    color: white;
+    color: rgb(28, 69, 135);
     background-color: gold;
     font-size: 30px;
 }
@@ -106,9 +106,14 @@ body {
 }
 
 #hamburger {
-    color: white;
+    color: black;
     font-size: 20px;
     cursor: pointer;
+    border: 2px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
 .Sidebar {
@@ -120,6 +125,9 @@ body {
     color: black;
     height: 100vh;
     width: 275px;
+    p {
+        font-size: 14px;
+    }
 }
 
 #Course_content{
@@ -149,4 +157,18 @@ body {
     display: none;
     visibility: hidden;
     position: absolute;
+}
+
+#Hidden_Extra {
+    display: none;
+    visibility: hidden;
+    position: absolute;
+}
+
+.SUPER {
+    margin-left: 315px;
+}
+
+p {
+    font-size: 23px;
 }
