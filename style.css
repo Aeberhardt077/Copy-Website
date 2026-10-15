@@ -1,0 +1,120 @@
+body {
+    background-color: rgb(28, 69, 135);
+    margin: 15px;
+}
+
+#Text {
+    color: white;
+    font-size: 18px;
+    a {
+        color: white;
+    }
+}
+
+.course  {
+
+}
+.course h2{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.course img {
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.club img {
+    width: 300px;
+    height: 300px;
+}
+
+.mainHeaders {
+    font-size: 50px;
+}
+
+#colleges {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto;
+    gap: 5px;
+}
+
+.college {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.college img {
+    width: 70px;
+    height: 70px;
+}
+
+.college p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+#caracell img {
+    width: 800px;
+    height: 500px;
+}
+
+#caracell span {
+    color: white;
+    background-color: gold;
+    font-size: 30px;
+}
+
+#caracell {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#APCSA {
+    display: flex;
+    align-items: center;
+}
+#APCSA h2 {
+    flex: 1
+}
+
+#APCSA img {
+    max-width: 200px;
+}
+
+#APCSP {
+    display: flex;
+    align-items: center;
+}
+#APCSP h2 {
+    flex: 1
+}
+
+#APCSP img {
+    max-width: 200px;
+}
+
+#Extra {
+    color: white;
+}
+
+#hamburger {
+    color: white;
+    font-size: 20px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 50px;
+    background-color: yellow;
+}
